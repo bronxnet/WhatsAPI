@@ -1,0 +1,36 @@
+{
+    "name": "mgp25/whatsapi",
+    "description": "The php WhatsApp library ",
+    "license": "MIT",
+    "keywords": [
+        "WhatsApp",
+        "WhatsAPI"
+    ],
+    "authors": [
+        {
+            "role": "Contributors",
+            "name": "WhatsAPI Official Contributing Team",
+            "homepage": "https://github.com/mgp25/WhatsAPI-Official/graphs/contributors"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/mgp25/WhatsAPI-Official/issues",
+        "wiki": "https://github.com/mgp25/WhatsAPI-Official/wiki",
+        "source": "https://github.com/mgp25/WhatsAPI-Official"
+    },
+    "autoload": {
+        "classmap": [
+            "src/",
+            "src/events"
+        ]
+    },
+    "require": {
+        "php": ">=5.3",
+        "ext-curl": "*",
+        "ext-gd" : "*",
+        "ext-sockets" : "*",
+        "ext-openssl" : "*",
+        "ext-pdo" : "*",
+        "ext-sqlite3" : "*"
+    }
+}
